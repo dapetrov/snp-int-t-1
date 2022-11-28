@@ -3,18 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   padding: 0;
   user-select: none;
 }
-
 main {
   padding: 0 21px;
   background-color: #f9f7f4;
 }
-
 footer {
   background: #f4f0e9;
   padding: 0 21px;
@@ -29,15 +26,12 @@ footer {
     padding: 0 376px;
   }
 }
-
 textarea {
   resize: none;
 }
-
 p {
   margin: 0;
 }
-
 h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -60,7 +54,6 @@ h1 {
     color: #1b1f2b;
   }
 }
-
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -83,7 +76,6 @@ h2 {
     padding-top: 135px;
   }
 }
-
 h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -104,7 +96,6 @@ h3 {
     color: #1b1f2b;
   }
 }
-
 .P-big {
   font-family: "Roboto";
   font-style: normal;
@@ -123,7 +114,6 @@ h3 {
     color: #1b1f2b;
   }
 }
-
 .P-normal {
   font-family: "Roboto";
   font-style: normal;
@@ -142,7 +132,6 @@ h3 {
     color: #1b1f2b;
   }
 }
-
 .P-small {
   font-family: "Roboto";
   font-style: normal;
@@ -163,9 +152,10 @@ h3 {
     color: #1b1f2b;
   }
 }
-
 .FirstPageContainer {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/src/Footer/footerphoto.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 39.9%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/src/Footer/footerphoto.png);
   height: 488px;
   background-size: cover;
   background-position: center;
@@ -177,13 +167,18 @@ h3 {
 }
 @media (min-width: 1919px) {
   .FirstPageContainer {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/src/Header/header-img.png);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        transparent 39.9%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(/src/Header/header-img.png);
     background-position: center;
     background-size: cover;
     height: 831px;
   }
 }
-
 .Header_Container {
   display: flex;
   font-display: row;
@@ -232,7 +227,6 @@ h3 {
 .Header_Container_Scroll_ON > .PhoneNumber {
   margin-top: 0px;
 }
-
 .Header {
   margin: 33px 0 0 21px;
   width: 133px;
@@ -256,7 +250,6 @@ h3 {
     background: url(/src/Header/YourTour1024.svg);
   }
 }
-
 .Navigation {
   display: flex;
   flex-direction: row;
@@ -274,7 +267,6 @@ h3 {
     gap: 50px;
   }
 }
-
 .NavigationA {
   color: white;
   text-decoration: none;
@@ -285,23 +277,18 @@ h3 {
 .NavigationA :checked {
   text-decoration: none;
 }
-
 .NavigationTours :hover {
   border-bottom: solid white 1px;
 }
-
 .NavigationCollect :hover {
   border-bottom: solid white 1px;
 }
-
 .NavigationReviews :hover {
   border-bottom: solid white 1px;
 }
-
 .NavigationStory :hover {
   border-bottom: solid white 1px;
 }
-
 .PhoneNumber {
   margin: 32.5px 21px 0 0;
   color: white;
@@ -316,13 +303,11 @@ h3 {
     margin: 30px 376px 0 0;
   }
 }
-
 .TextContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .WelcomeText {
   color: white;
   margin: 84.5px 0 0 0;
@@ -337,7 +322,6 @@ h3 {
     width: 768px;
   }
 }
-
 .WelcomeTextTwo {
   color: white;
   margin: 40px 25px 0 25px;
@@ -354,7 +338,6 @@ h3 {
     width: 562px;
   }
 }
-
 .SearchTourButton {
   display: flex;
   flex-direction: row;
@@ -385,15 +368,12 @@ h3 {
     color: black;
   }
 }
-
 .ChooseTour {
   background-color: #f9f7f4;
 }
-
 .ChooseTourHeader {
   text-align: center;
 }
-
 .TourType {
   display: flex;
   flex-direction: column;
@@ -411,7 +391,6 @@ h3 {
     height: 39px;
   }
 }
-
 .P_hover_TypeTour_One {
   height: 25px;
   user-select: none;
@@ -428,7 +407,6 @@ h3 {
     height: 34px;
   }
 }
-
 .P_hover_TypeTour_Two {
   height: 25px;
   user-select: none;
@@ -446,7 +424,6 @@ h3 {
     border-bottom: #1b1f2b solid 2px;
   }
 }
-
 .TourTypeFirstRowWrapper {
   display: flex;
   flex-direction: column;
@@ -458,7 +435,6 @@ h3 {
     gap: 30px;
   }
 }
-
 .TourTypeFirstRow {
   display: flex;
   flex-direction: row;
@@ -473,7 +449,6 @@ h3 {
     gap: 30px;
   }
 }
-
 .CardsTours360-1024 {
   display: flex;
   flex-direction: column;
@@ -492,7 +467,6 @@ h3 {
     display: none;
   }
 }
-
 .CardsTours1920 {
   display: flex;
   flex-direction: column;
@@ -506,7 +480,6 @@ h3 {
     display: none;
   }
 }
-
 .OneRow_TwoCards {
   margin: 0px;
   padding: 0px;
@@ -523,7 +496,6 @@ h3 {
   flex-direction: row;
   gap: 30px;
 }
-
 .CardTour {
   width: 318px;
   height: 318px;
@@ -558,11 +530,9 @@ h3 {
     background-color: #efa501;
   }
 }
-
 .BackgroundContainer {
   transition: all 0.3s ease;
 }
-
 .BackgroundContainer1 {
   position: absolute;
   height: 100%;
@@ -571,9 +541,14 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-1.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-1.png);
 }
-
 .BackgroundContainer2 {
   position: absolute;
   height: 100%;
@@ -582,9 +557,14 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-2.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-2.png);
 }
-
 .BackgroundContainer3 {
   position: absolute;
   height: 100%;
@@ -593,9 +573,14 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-3.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-3.png);
 }
-
 .BackgroundContainer4 {
   position: absolute;
   height: 100%;
@@ -604,9 +589,14 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-4.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-4.png);
 }
-
 .BackgroundContainer5 {
   position: absolute;
   height: 100%;
@@ -615,9 +605,14 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-5.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-5.png);
 }
-
 .BackgroundContainer6 {
   position: absolute;
   height: 100%;
@@ -626,13 +621,17 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-6.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-6.png);
 }
-
 .CardNameTextContainer {
   position: absolute;
 }
-
 .CardName {
   color: white;
   margin: 0;
@@ -642,7 +641,6 @@ h3 {
     margin-left: 20px;
   }
 }
-
 .CardPrice {
   margin-top: 13px;
   text-align: left;
@@ -653,7 +651,6 @@ h3 {
     margin-left: 20px;
   }
 }
-
 .More {
   display: flex;
   flex-direction: row;
@@ -675,7 +672,6 @@ h3 {
     border-radius: 50px;
   }
 }
-
 @media (min-width: 1919px) {
   .MoreWrapper {
     margin: 277px 0px 0px 0px;
@@ -684,7 +680,6 @@ h3 {
     border-radius: 50px;
   }
 }
-
 .MoreText {
   color: white;
 }
@@ -693,40 +688,64 @@ h3 {
     padding-left: 20px;
   }
 }
-
 .MoreVector {
   height: 15px;
   width: 22px;
   background-image: url(/src/Vectors/Vector.svg);
 }
-
 .CardTour_1 {
   overflow: hidden;
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-1.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-1.png);
   background-size: cover;
   background-position: center;
 }
-
 .CardTour_2 {
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-2.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-2.png);
   background-size: cover;
   background-position: center;
 }
-
 .CardTour_3 {
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-3.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-3.png);
   background-size: cover;
   background-position: center;
 }
-
 .CardTour_4 {
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-4.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-4.png);
   background-size: cover;
   background-position: center;
 }
-
 .CardTour_5 {
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-5.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-5.png);
   background-size: cover;
   background-position: center;
 }
@@ -735,19 +754,22 @@ h3 {
     margin: 0;
   }
 }
-
 .CardTour_6 {
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%), url(/src/cards/card_photo-6.png);
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/cards/card_photo-6.png);
   background-size: cover;
   background-position: center;
   margin: 0;
 }
-
 .CollectTourHeaderMain {
   margin: 0;
   text-align: center;
 }
-
 .CollectTourHeaderText360 {
   margin: 20px 0 40px 0;
   color: #a6a6a6;
@@ -758,7 +780,6 @@ h3 {
     display: none;
   }
 }
-
 .CollectTourHeaderText1024 {
   margin: 30px 0px 100px 0px;
   color: #a6a6a6;
@@ -769,7 +790,6 @@ h3 {
     display: none;
   }
 }
-
 .CollectTourForm {
   background-color: white;
   display: flex;
@@ -795,7 +815,6 @@ h3 {
     height: 986px;
   }
 }
-
 .CollectTourFormContainerRadio {
   align-items: flex-start;
 }
@@ -805,7 +824,6 @@ h3 {
     height: 64px;
   }
 }
-
 @media (min-width: 1023px) {
   .CollectTourFormContainerRow {
     display: flex;
@@ -813,7 +831,6 @@ h3 {
     gap: 20px;
   }
 }
-
 @media (max-width: 1023px) {
   .CollectTourFormContainerOne::after {
     position: absolute;
@@ -827,7 +844,6 @@ h3 {
     margin-left: 240px;
   }
 }
-
 @media (min-width: 1023px) {
   .CollectTourFormContainerRowOne {
     display: flex;
@@ -857,11 +873,9 @@ h3 {
     margin-left: 980px;
   }
 }
-
 .CollectTourFormName {
   margin-bottom: 8px;
 }
-
 input {
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -893,11 +907,9 @@ input ::placeholder {
     background-color: #f4f0e9 !important;
   }
 }
-
 .CollectTourFormContainerSel {
   position: relative;
 }
-
 .CollectTourFormSelect {
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -929,11 +941,9 @@ input ::placeholder {
     background-color: #f4f0e9 !important;
   }
 }
-
 .CollectTourFormContainerSel {
   display: inline-block;
 }
-
 .CollectTourFormInputComment {
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -959,13 +969,11 @@ input ::placeholder {
     height: 152px;
   }
 }
-
 @media (min-width: 1919px) {
   .CollectTourFormAcceptALLButtons {
     width: 1030px;
   }
 }
-
 .CollectTourFormInputRadioButton {
   display: flex;
   flex-direction: row;
@@ -990,7 +998,6 @@ input ::placeholder {
     display: none;
   }
 }
-
 .radiobutton {
   height: 26px;
   width: 26px;
@@ -1001,7 +1008,6 @@ input ::placeholder {
   width: 20px;
   background: url(./src/RadioButton-CheckBox/RadioSVG1M.svg);
 }
-
 .radioBTN {
   display: none;
 }
@@ -1014,14 +1020,12 @@ input ::placeholder {
 .radioBTNM:checked + label {
   background: url(./src/RadioButton-CheckBox/RadioSVG2M.svg);
 }
-
 .radioBtnContainer {
   display: flex;
   flex-direction: row;
   text-align: center;
   gap: 10px;
 }
-
 .checkboxcomp {
   display: inline-block;
   height: 26px;
@@ -1034,7 +1038,6 @@ input ::placeholder {
   width: 20px;
   background: url(/src/RadioButton-CheckBox/CheckboxSVG1M.svg);
 }
-
 @media (max-width: 1023px) {
   .AcceptLicenzeInput {
     display: none;
@@ -1045,7 +1048,6 @@ input ::placeholder {
     display: none;
   }
 }
-
 .AcceptLicenzCheckbox {
   display: none;
 }
@@ -1058,7 +1060,6 @@ input ::placeholder {
 .AcceptLicenzCheckboxM:checked + label {
   background: url(./src/RadioButton-CheckBox/CheckboxSVG2M.svg);
 }
-
 .AcceptLicenz {
   display: flex;
   flex-direction: row;
@@ -1068,7 +1069,6 @@ input ::placeholder {
   gap: 10px;
   color: #a6a6a6;
 }
-
 .A_Licenz {
   color: #1b1f2b !important;
   text-decoration: none;
@@ -1081,7 +1081,6 @@ input ::placeholder {
     color: #efa501 !important;
   }
 }
-
 .AcceptButtons {
   margin-top: 30px;
   display: flex;
@@ -1097,7 +1096,6 @@ input ::placeholder {
     gap: 30px;
   }
 }
-
 .AcceptButtonYES {
   width: 104.5px;
   height: 47px;
@@ -1118,7 +1116,6 @@ input ::placeholder {
     background-color: #627f7e;
   }
 }
-
 .AcceptButtonNO {
   width: 104.5px;
   height: 47px;
@@ -1138,7 +1135,6 @@ input ::placeholder {
     background-color: #d9dfdb;
   }
 }
-
 .ReviewsContainer {
   background-color: #f9f7f4;
   display: flex;
@@ -1153,7 +1149,6 @@ input ::placeholder {
     width: 529px;
   }
 }
-
 .ReviewsContainerText360 {
   margin: 20px 0 50px 0;
   text-align: center;
@@ -1174,7 +1169,6 @@ input ::placeholder {
     display: none;
   }
 }
-
 @media (min-width: 1023px) {
   .ReviewContainerCardsReviewWrapper {
     display: flex;
@@ -1182,7 +1176,6 @@ input ::placeholder {
     gap: 18px;
   }
 }
-
 .ReviewsContainerCardsReviewOne {
   display: flex;
   flex-direction: column;
@@ -1206,7 +1199,6 @@ input ::placeholder {
     border-radius: 50px;
   }
 }
-
 .CardsWrapper {
   padding: 20px;
 }
@@ -1215,11 +1207,9 @@ input ::placeholder {
     padding: 40px;
   }
 }
-
 .AutorTour {
   color: #a6a6a6;
 }
-
 .AutorLogoOne {
   height: 75px;
   width: 75px;
@@ -1227,7 +1217,6 @@ input ::placeholder {
   border-radius: 100px;
   background-size: cover;
 }
-
 .ReviewsContainerCardsReviewAutor {
   display: flex;
   flex-direction: row;
@@ -1250,13 +1239,11 @@ input ::placeholder {
     padding: 70px 0 0;
   }
 }
-
 @media (min-width: 1023px) {
   .ReviewsContainerCardsReviewText360 {
     display: none;
   }
 }
-
 @media (max-width: 1023px) {
   .ReviewsContainerCardsReviewText1024 {
     display: none;
@@ -1267,13 +1254,11 @@ input ::placeholder {
     display: none;
   }
 }
-
 @media (max-width: 1919px) {
   .ReviewsContainerCardsReviewText1920 {
     display: none;
   }
 }
-
 .Autor {
   display: flex;
   flex-direction: column;
@@ -1281,7 +1266,6 @@ input ::placeholder {
   padding: 0px;
   gap: 8px;
 }
-
 .ReviewsContainerCardsReviewTwo {
   display: flex;
   flex-direction: column;
@@ -1304,7 +1288,6 @@ input ::placeholder {
     border-radius: 50px;
   }
 }
-
 .AutorLogoTwo {
   height: 75px;
   width: 75px;
@@ -1312,7 +1295,6 @@ input ::placeholder {
   border-radius: 100px;
   background-size: cover;
 }
-
 .TravelPhoto {
   background-color: #f9f7f4;
 }
@@ -1324,13 +1306,11 @@ input ::placeholder {
   text-align: center;
   color: #a6a6a6;
 }
-
 @media (min-width: 1023px) {
   .TravelPhotoHeaderText {
     margin-top: 30px;
   }
 }
-
 .TravelPhotosContainer {
   display: flex;
   flex-direction: column;
@@ -1343,7 +1323,6 @@ input ::placeholder {
     padding-top: 100px;
   }
 }
-
 .TravelPhotosContainerRowOne {
   display: flex;
   flex-direction: row;
@@ -1351,7 +1330,6 @@ input ::placeholder {
   padding: 0px;
   gap: 18px;
 }
-
 .RowOne {
   width: 150px;
   height: 110px;
@@ -1370,7 +1348,6 @@ input ::placeholder {
     height: 300px;
   }
 }
-
 .TravelPhotosContainerRowTwo {
   display: flex;
   flex-direction: row;
@@ -1383,7 +1360,6 @@ input ::placeholder {
     gap: 20px;
   }
 }
-
 .TwoRowPhotoALL {
   width: 99.33px;
   height: 110px;
@@ -1402,17 +1378,14 @@ input ::placeholder {
     height: 301px;
   }
 }
-
 .OneRowOnePhoto {
   background: url(/src/photoCARDS/travelphoto-1.png);
   background-size: cover;
 }
-
 .OneRowTwoPhoto {
   background: url(/src/photoCARDS/travelphoto-4.png);
   background-size: cover;
 }
-
 .OneRowThreePhoto {
   background: url(./src/PhotoCards/travelphoto-2.png);
   background-size: cover;
@@ -1423,7 +1396,6 @@ input ::placeholder {
     display: block;
   }
 }
-
 .OneRowFourPhoto {
   background: url(./src/PhotoCards/travelphoto-3.jpg);
   background-size: cover;
@@ -1434,22 +1406,18 @@ input ::placeholder {
     display: block;
   }
 }
-
 .TwoRowOnePhoto {
   background: url(/src/photoCARDS/travelphoto-5.png);
   background-size: cover;
 }
-
 .TwoRowTwoPhoto {
   background: url(/src/photoCARDS/travelphoto-8.png);
   background-size: cover;
 }
-
 .TwoRowThreePhoto {
   background: url(/src/photoCARDS//travelphoto-13.png);
   background-size: cover;
 }
-
 .TwoRowFourPhoto {
   background: url(./src/PhotoCards/travelphoto-6.png);
   background-size: cover;
@@ -1460,7 +1428,6 @@ input ::placeholder {
     display: block;
   }
 }
-
 .TwoRowFivePhoto {
   background: url(./src/PhotoCards/travelphoto-7.png);
   background-size: cover;
@@ -1471,17 +1438,14 @@ input ::placeholder {
     display: block;
   }
 }
-
 .ThreeRowOnePhoto {
   background: url(/src/photoCARDS/travelphoto-9.png);
   background-size: cover;
 }
-
 .ThreeRowTwoPhoto {
   background: url(/src/photoCARDS/travelphoto-10.png);
   background-size: cover;
 }
-
 .ThreeRowThreePhoto {
   background: url(./src/PhotoCards/travelphoto-11.png);
   background-size: cover;
@@ -1492,7 +1456,6 @@ input ::placeholder {
     display: block;
   }
 }
-
 .ThreeRowFourPhoto {
   background: url(./src/PhotoCards/travelphoto-12.png);
   background-size: cover;
@@ -1503,15 +1466,12 @@ input ::placeholder {
     display: block;
   }
 }
-
 .TravelStory {
   background-color: #f9f7f4;
 }
-
 .TravelStoryHeader {
   text-align: center;
 }
-
 .TravelStoryHeaderText {
   margin-top: 20px;
   text-align: center;
@@ -1530,7 +1490,6 @@ input ::placeholder {
     margin-top: 30px;
   }
 }
-
 .StoryCardNameTextContainer {
   position: absolute;
   margin: 30px 25px 0px 30px;
@@ -1549,11 +1508,9 @@ input ::placeholder {
     margin: 0px 60px 0px 60px;
   }
 }
-
 .FirstStoryMore {
   color: white;
 }
-
 .CardStory {
   width: 318px;
   height: 455px;
@@ -1578,41 +1535,52 @@ input ::placeholder {
     transform: scale(1.2);
   }
   .CardStory:hover
-  .StoryCardNameTextContainer
-  > .StoryMoreFirst
-  > .StoryMoreTextWR1Wrap {
+    .StoryCardNameTextContainer
+    > .StoryMoreFirst
+    > .StoryMoreTextWR1Wrap {
     background: #286562;
   }
   .CardStory:hover
-  .StoryCardNameTextContainer
-  > .StoryMoreFirst
-  > .StoryMoreTextWR1Wrap :active {
+    .StoryCardNameTextContainer
+    > .StoryMoreFirst
+    > .StoryMoreTextWR1Wrap
+    :active {
     background: #efa501;
   }
 }
-
 @media (min-width: 1919px) {
-  .CardStory_2:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
+  .CardStory_2:hover
+    > .StoryCardNameTextContainer
+    > .StoryMore
+    > .StoryMoreTextWR1Wrap {
     background: #286562;
   }
-  .CardStory_2:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap :active {
+  .CardStory_2:hover
+    > .StoryCardNameTextContainer
+    > .StoryMore
+    > .StoryMoreTextWR1Wrap
+    :active {
     background: #efa501;
   }
 }
-
 @media (min-width: 1919px) {
-  .CardStory_3:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
+  .CardStory_3:hover
+    > .StoryCardNameTextContainer
+    > .StoryMore
+    > .StoryMoreTextWR1Wrap {
     background: #286562;
   }
-  .CardStory_3:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap :active {
+  .CardStory_3:hover
+    > .StoryCardNameTextContainer
+    > .StoryMore
+    > .StoryMoreTextWR1Wrap
+    :active {
     background: #efa501;
   }
 }
-
 .BackgroundContainerStory {
   transition: all 0.3s ease;
 }
-
 .BackgroundContainerStory1 {
   position: absolute;
   height: 100%;
@@ -1622,7 +1590,12 @@ input ::placeholder {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-1.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-1.png);
   background-size: cover;
 }
 @media (max-width: 1919px) {
@@ -1630,7 +1603,6 @@ input ::placeholder {
     background: none;
   }
 }
-
 .BackgroundContainerStory2 {
   position: absolute;
   height: 100%;
@@ -1640,7 +1612,12 @@ input ::placeholder {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-2.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
 }
 @media (max-width: 1919px) {
@@ -1648,7 +1625,6 @@ input ::placeholder {
     background: none;
   }
 }
-
 .BackgroundContainerStory3 {
   position: absolute;
   height: 100%;
@@ -1658,7 +1634,12 @@ input ::placeholder {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-3.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-3.png);
   background-size: cover;
 }
 @media (max-width: 1919px) {
@@ -1666,11 +1647,9 @@ input ::placeholder {
     background: none;
   }
 }
-
 .StoryName {
   color: white;
 }
-
 .StoryText {
   color: white;
 }
@@ -1715,7 +1694,6 @@ input ::placeholder {
   margin-top: 60px;
   color: white;
 }
-
 .StoryTours {
   display: flex;
   flex-direction: column;
@@ -1731,7 +1709,6 @@ input ::placeholder {
     gap: 50px;
   }
 }
-
 .StoryMore {
   display: flex;
   flex-direction: row;
@@ -1774,7 +1751,6 @@ input ::placeholder {
     gap: 16px;
   }
 }
-
 .StoryMoreTextWR1 {
   display: flex;
   flex-direction: row;
@@ -1789,7 +1765,6 @@ input ::placeholder {
     height: 42px;
   }
 }
-
 @media (min-width: 1919px) {
   .StoryMoreTextWR1Wrap {
     width: 199px;
@@ -1799,7 +1774,6 @@ input ::placeholder {
     overflow: hidden;
   }
 }
-
 @media (max-width: 1023px) {
   .StoryMoreTextWR2 {
     display: none;
@@ -1815,13 +1789,11 @@ input ::placeholder {
     margin-right: 60px;
   }
 }
-
 @media (max-width: 1023px) {
   .StoryMoreSSeti {
     display: none;
   }
 }
-
 .StoryMoreSSetiSpanINST {
   color: white;
 }
@@ -1833,7 +1805,6 @@ input ::placeholder {
     color: #efa501;
   }
 }
-
 .StoryMoreSSetiSpanFac {
   margin-left: 35px;
   color: white;
@@ -1846,7 +1817,6 @@ input ::placeholder {
     color: #efa501;
   }
 }
-
 .StoryMoreSSetiSpanVK {
   margin-left: 35px;
   color: white;
@@ -1859,23 +1829,24 @@ input ::placeholder {
     color: #efa501;
   }
 }
-
 .StoryMoreText {
   color: white;
 }
-
 .StoryMoreVector {
   height: 15px;
   width: 22px;
   background-image: url(/src/Vectors/Vector.svg);
 }
-
 ul {
   margin-top: 27px;
 }
-
 .CardStory_1 {
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-1.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-1.png);
   background-size: cover;
   background-position: center;
 }
@@ -1884,9 +1855,13 @@ ul {
     background: none;
   }
 }
-
 .CardStory_2 {
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-2.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
   background-position: center;
 }
@@ -1895,9 +1870,13 @@ ul {
     background: none;
   }
 }
-
 .CardStory_3 {
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%), url(/src/StoryPhoto/storyphoto-3.png);
+  background: linear-gradient(
+      270deg,
+      transparent 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-3.png);
   background-size: cover;
   background-position: center;
 }
@@ -1906,7 +1885,6 @@ ul {
     background: none;
   }
 }
-
 .Ending {
   background-color: #f9f7f4;
   display: flex;
@@ -1919,7 +1897,6 @@ ul {
     padding: 135px 21px 135px 0;
   }
 }
-
 .EndWrapper {
   display: flex;
   flex-direction: column;
@@ -1932,13 +1909,11 @@ ul {
     gap: 30px;
   }
 }
-
 .EndingWrapperTwo {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .EndingPhoto {
   height: 130px;
   width: 133px;
@@ -1958,7 +1933,6 @@ ul {
     background-size: cover;
   }
 }
-
 .EndingHeader {
   text-align: center;
 }
@@ -1967,13 +1941,11 @@ ul {
     display: none;
   }
 }
-
 @media (max-width: 1023px) {
   .EndingHeader1024 {
     display: none;
   }
 }
-
 .EndingHeaderText {
   margin-top: 20px;
   text-align: center;
@@ -1994,7 +1966,6 @@ ul {
     display: none;
   }
 }
-
 .FooterInfo {
   justify-content: center;
   align-items: center;
@@ -2011,12 +1982,10 @@ ul {
     height: 88px;
   }
 }
-
 .FooterText {
   text-align: center;
   color: #a6a6a6;
 }
-
 .SocialnSeti {
   display: flex;
   flex-direction: row;
@@ -2030,7 +1999,6 @@ ul {
     gap: 30px;
   }
 }
-
 .SocialSeti {
   display: flex;
   flex-direction: row;
@@ -2043,7 +2011,6 @@ ul {
     gap: 10px;
   }
 }
-
 .SetName {
   color: #1b1f2b;
 }
@@ -2055,21 +2022,19 @@ ul {
     color: #efa501;
   }
 }
-
 .Set1Logo {
   background: url(/src/Footer/Vector1.svg);
   height: 14px;
   width: 14px;
 }
-
 .Set3Logo {
   background: url(/src/Footer/Logo.svg);
   height: 12px;
   width: 20px;
 }
-
 .Set2Logo {
   background: url(/src/Footer/Vector2.svg);
   height: 17px;
   width: 8px;
 }
+/*# sourceMappingURL=style.css.map */
