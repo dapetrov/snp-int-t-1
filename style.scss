@@ -152,9 +152,11 @@ h3 {
     url(/src/Footer/footerphoto.png);
   height: 488px;
   background-size: cover;
-  background-position: center;
+  background-position: 25%;
   @media (min-width: 1023px) {
     height: 831px;
+    background-size: 100%;
+    background-position: right 75%;
   }
   @media (min-width: 1919px) {
     background: linear-gradient(
@@ -175,45 +177,29 @@ h3 {
   justify-content: space-between;
   align-items: center;
   &_Scroll {
-    & > .Header {
-      margin-top: 0px;
-    }
-    & > .Navigation {
-      margin-top: 0px;
-    }
-    & > .PhoneNumber {
-      margin-top: 0px;
-    }
-    height: 88px;
-    background: rgba(243, 239, 232, 0.6);
-    backdrop-filter: blur(27px);
-    display: flex;
-    font-display: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: fixed;
     display: none;
     &_ON {
-      & > .Header {
+      & > .Header_Scroll {
         margin-top: 0px;
       }
       & > .Navigation {
         margin-top: 0px;
+        color: inherit;
       }
       & > .PhoneNumber {
         margin-top: 0px;
+        color: inherit;
       }
       height: 88px;
       background: rgba(243, 239, 232, 0.6);
       backdrop-filter: blur(27px);
       display: flex;
-      font-display: row;
       justify-content: space-between;
       align-items: center;
       width: 100%;
       position: fixed;
       z-index: 2;
+      color: #1b1f2b;
     }
   }
 }
@@ -235,6 +221,29 @@ h3 {
     height: 31px;
     background: url(/src/Header/YourTour1024.svg);
   }
+  &_Scroll {
+    margin: 5px 0 0 21px;
+    width: 133px;
+    height: 22px;
+    background: url(/src/Header/YourTour360Scroll.svg);
+    background-size: cover;
+    @media (min-width: 1023px) {
+      margin: 1px 0 0 57px;
+      width: 182px;
+      height: 31px;
+      background: url(/src/Header/YourTour1024Scroll.svg);
+    }
+    @media (min-width: 1919px) {
+      margin: 1px 0 0 376px;
+      width: 182px;
+      height: 31px;
+      background: url(/src/Header/YourTour1024Scroll.svg);
+    }
+  }
+}
+.header_a {
+  margin: 0;
+  padding: 0;
 }
 .Navigation {
   display: flex;
@@ -259,9 +268,25 @@ h3 {
     text-decoration: none;
   }
 }
+.NavigationA_Scroll {
+  color: #1b1f2b;
+  text-decoration: none;
+  :active {
+    text-decoration: none;
+  }
+  :checked {
+    text-decoration: none;
+  }
+}
 .NavigationTours {
   :hover {
     border-bottom: solid white 1px;
+  }
+  &S {
+    border-bottom: solid rgba(0, 0, 0, 0) 1px;
+    &:hover {
+      border-bottom: solid #1b1f2b 1px;
+    }
   }
 }
 
@@ -269,15 +294,24 @@ h3 {
   :hover {
     border-bottom: solid white 1px;
   }
+  &S:hover {
+    border-bottom: solid #1b1f2b 1px;
+  }
 }
 .NavigationReviews {
   :hover {
     border-bottom: solid white 1px;
   }
+  &S:hover {
+    border-bottom: solid #1b1f2b 1px;
+  }
 }
 .NavigationStory {
   :hover {
     border-bottom: solid white 1px;
+  }
+  &S:hover {
+    border-bottom: solid #1b1f2b 1px;
   }
 }
 .PhoneNumber {
@@ -418,7 +452,7 @@ h3 {
   align-items: center;
   padding: 0px;
   padding: 50px 0 0 0;
-
+  display: block;
   color: white;
   @media (min-width: 1023px) {
     padding: 100px 0 0 0;
@@ -445,6 +479,7 @@ h3 {
     display: flex;
     flex-direction: row;
     gap: 18px;
+    justify-content: center;
   }
   &1920 {
     display: flex;
@@ -458,12 +493,17 @@ h3 {
   border-radius: 20px;
   padding: 25px 25px 0px 25px;
   margin-bottom: 18px;
-
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
   @media (min-width: 1023px) {
     border-radius: 50px;
     width: 450px;
     height: 531px;
     padding: 50px 0px 0px 50px;
+    margin-left: 0;
+    margin-right: 0;
   }
   @media (min-width: 1919px) {
     width: 370px;
@@ -659,7 +699,7 @@ h3 {
     ),
     url(/src/Cards/card_photo-2.png);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
 }
 .CardTour_3 {
   background: linear-gradient(
@@ -707,8 +747,7 @@ h3 {
     url(/src/Cards/card_photo-6.png);
   background-size: cover;
   background-position: center;
-
-  margin: 0;
+  margin-bottom: 0px;
 }
 //CollectTour======================================================================================
 .CollectTourHeaderMain {
@@ -808,10 +847,12 @@ h3 {
       width: 18px;
       margin-top: 70px;
       margin-left: 980px;
+      pointer-events: none;
     }
   }
 }
 .CollectTourFormName {
+  caret-color: red;
   margin-bottom: 8px;
 }
 input {
@@ -821,12 +862,17 @@ input {
   outline: none;
   height: 43px;
   width: 278px;
-  color: grey;
+  color: #1b1f2b;
   font-size: 16px;
   font-family: Tahoma;
 
   padding-left: 10px;
   margin-bottom: 30px;
+
+  &:focus {
+    border: 1px #a6a6a6 solid;
+    background-color: #f4f0e9 !important;
+  }
   & ::placeholder {
     color: #cccccc;
   }
@@ -860,6 +906,10 @@ input {
   position: relative;
   appearance: none;
   display: block;
+  &:focus {
+    border: #a6a6a6 1px solid;
+    background-color: #f4f0e9 !important;
+  }
   @media (min-width: 1023px) {
     width: 389px;
     height: 68px;
@@ -882,12 +932,18 @@ input {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -khtml-border-radius: 10px;
+  outline: none;
   background: $backgColorOne;
   height: 132px;
   width: 278px;
-  color: grey;
+  color: #1b1f2b;
   padding-left: 10px;
   margin-bottom: 30px;
+  text-decoration: none;
+  &:focus {
+    border: 1px solid #a6a6a6;
+    background-color: #f4f0e9 !important;
+  }
   @media (min-width: 1023px) {
     width: 798px;
     height: 152px;
@@ -895,6 +951,9 @@ input {
   @media (min-width: 1919px) {
     width: 1030px;
     height: 152px;
+    &:hover {
+      background-color: #f4f0e9 !important;
+    }
   }
 }
 .CollectTourFormAcceptALLButtons {
@@ -1001,7 +1060,7 @@ input {
       text-decoration: underline;
     }
     &:active {
-      color: #efa501 !important;
+      color: #286562 !important;
     }
   }
 }
@@ -1033,6 +1092,9 @@ input {
     height: 58px;
   }
   @media (min-width: 1919px) {
+    &:hover {
+      background-color: #3b7e7b;
+    }
     &:active {
       background-color: #627f7e;
     }
@@ -1051,6 +1113,9 @@ input {
     height: 58px;
   }
   @media (min-width: 1919px) {
+    &:hover {
+      background-color: #f1f3f2;
+    }
     &:active {
       background-color: #d9dfdb;
     }
@@ -1236,10 +1301,14 @@ input {
   width: 150px;
   height: 110px;
   border-radius: 20px;
+  background-size: cover !important;
+  background-position: center center !important;
   @media (min-width: 1023px) {
     width: 314.67px;
     height: 300px;
     border-radius: 50px;
+    background-size: cover !important;
+    background-position: center center !important;
   }
   @media (min-width: 1919px) {
     width: 442.5px;
@@ -1260,14 +1329,20 @@ input {
   width: 99.33px;
   height: 110px;
   border-radius: 20px;
+  background-size: cover !important;
+  background-position: center center !important;
   @media (min-width: 1023px) {
     width: 231px;
     height: 301px;
     border-radius: 50px;
+    background-size: cover !important;
+    background-position: center center !important;
   }
   @media (min-width: 1919px) {
     width: 349.16px;
     height: 301px;
+    background-size: cover !important;
+    background-position: center center !important;
   }
 }
 .OneRowOnePhoto {
@@ -1305,6 +1380,7 @@ input {
 .TwoRowThreePhoto {
   background: url(/src/PhotoCards//travelphoto-13.png);
   background-size: cover;
+  background-position: 30% center !important;
 }
 .TwoRowFourPhoto {
   background: url(./src/PhotoCards/travelphoto-6.png);
@@ -1689,7 +1765,7 @@ ul {
     ),
     url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   @media (min-width: 1919px) {
     background: none;
   }
