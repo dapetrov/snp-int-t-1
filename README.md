@@ -1,1 +1,1 @@
-https://snp-int-t-1.vercel.app/
+https://snp-int-t-1.vercel.app
