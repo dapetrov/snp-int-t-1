@@ -260,167 +260,187 @@
             а также рамки и место обучения кадров
           </div>
         </div>
-        <div class="CollectTourForm P-normal">
-          <div class="CollectTourFormContainerRowOne">
-            <div class="CollectTourFormContainer CollectTourFormContainerOne">
-              <div class="CollectTourFormName">Имя</div>
-              <div class="CollectTourFormInput">
-                <input
-                  type="text"
-                  placeholder="Введите Ваше имя"
-                  class="CollectTourFormInputS"
-                />
+        <form>
+          <div class="CollectTourForm P-normal">
+            <div class="CollectTourFormContainerRowOne">
+              <div class="CollectTourFormContainer CollectTourFormContainerOne">
+                <div class="CollectTourFormName">Имя</div>
+                <div class="CollectTourFormInput">
+                  <input
+                    type="text"
+                    placeholder="Введите Ваше имя"
+                    class="CollectTourFormInputS"
+                    pattern="[A-Za-zА-Яа-яЁё]{3,16}"
+                    required="required"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="CollectTourFormContainer CollectTourFormContainerTwo">
-              <div class="CollectTourFormName">Направление</div>
-              <div class="CollectTourFormInputSel">
-                <div class="CollectTourFormContainerSel">
-                  <select
-                    class="CollectTourFormInput CollectTourFormSelect"
-                    placeholder="Куда хотите ехать?"
-                  >
-                    <option value="1">Куда хотите ехать?</option>
-                    <option value="2">Горы</option>
-                    <option value="3">Горы</option>
-                  </select>
+              <div class="CollectTourFormContainer CollectTourFormContainerTwo">
+                <div class="CollectTourFormName">Направление</div>
+                <div class="CollectTourFormInputSel">
+                  <div class="CollectTourFormContainerSel">
+                    <select
+                      class="CollectTourFormInput CollectTourFormSelect"
+                      placeholder="Куда хотите ехать?"
+                    >
+                      <option value="1">Куда хотите ехать?</option>
+                      <option value="2">Горы</option>
+                      <option value="3">Горы</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="CollectTourFormContainerRow">
-            <div class="CollectTourFormContainer">
-              <div class="CollectTourFormName">Email</div>
-              <div class="CollectTourFormInput">
-                <input
-                  type="text"
-                  placeholder="example@mail.com"
-                  class="CollectTourFormInputS"
-                />
+            <div class="CollectTourFormContainerRow">
+              <div class="CollectTourFormContainer">
+                <div class="CollectTourFormName">Email</div>
+                <div class="CollectTourFormInput">
+                  <input
+                    type="text"
+                    placeholder="example@mail.com"
+                    class="CollectTourFormInputS"
+                    required="required"
+                    pattern="{8,25}"
+                  />
+                </div>
+              </div>
+              <div class="CollectTourFormContainer">
+                <div class="CollectTourFormName">Телефон</div>
+                <div class="CollectTourFormInput">
+                  <input
+                    type="text"
+                    placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                    class="CollectTourFormInputS"
+                    required="required"
+                    pattern="[+][0-9]{9,14}"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="CollectTourFormContainerRow">
+              <div class="CollectTourFormContainer">
+                <div class="CollectTourFormName">Дата от</div>
+                <div class="CollectTourFormInput">
+                  <input
+                    type="text"
+                    placeholder="ДД.ММ.ГГ"
+                    class="CollectTourFormInputS"
+                    pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}"
+                    required="required"
+                  />
+                </div>
+              </div>
+              <div class="CollectTourFormContainer">
+                <div class="CollectTourFormName">Дата до</div>
+                <div class="CollectTourFormInput">
+                  <input
+                    type="text"
+                    placeholder="ДД.ММ.ГГ"
+                    class="CollectTourFormInputS"
+                    pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}"
+                    required="required"
+                  />
+                </div>
               </div>
             </div>
             <div class="CollectTourFormContainer">
-              <div class="CollectTourFormName">Телефон</div>
+              <div class="CollectTourFormName">Комментарий</div>
               <div class="CollectTourFormInput">
-                <input
-                  type="text"
-                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
-                  class="CollectTourFormInputS"
-                />
+                <textarea class="CollectTourFormInputComment"></textarea>
               </div>
             </div>
-          </div>
-          <div class="CollectTourFormContainerRow">
-            <div class="CollectTourFormContainer">
-              <div class="CollectTourFormName">Дата от</div>
-              <div class="CollectTourFormInput">
-                <input
-                  type="text"
-                  placeholder="ДД.ММ.ГГ"
-                  class="CollectTourFormInputS"
-                />
-              </div>
-            </div>
-            <div class="CollectTourFormContainer">
-              <div class="CollectTourFormName">Дата до</div>
-              <div class="CollectTourFormInput">
-                <input
-                  type="text"
-                  placeholder="ДД.ММ.ГГ"
-                  class="CollectTourFormInputS"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="CollectTourFormContainer">
-            <div class="CollectTourFormName">Комментарий</div>
-            <div class="CollectTourFormInput">
-              <textarea class="CollectTourFormInputComment"></textarea>
-            </div>
-          </div>
-          <div class="CollectTourFormAcceptALLButtons">
-            <div class="CollectTourFormContainerRadio">
-              <div class="CollectTourFormName">Вам есть 18 лет?</div>
+            <div class="CollectTourFormAcceptALLButtons">
+              <div class="CollectTourFormContainerRadio">
+                <div class="CollectTourFormName">Вам есть 18 лет?</div>
 
-              <div class="CollectTourFormInputRadioButton">
-                <div class="radioBtnContainer">
-                  <input
-                    class="radioBTN"
-                    type="radio"
-                    id="contactChoice1"
-                    name="choice"
-                    value="yes"
-                  />
-                  <label class="radiobutton" for="contactChoice1"></label>
-                  <label for="contactChoice1">Да</label>
+                <div class="CollectTourFormInputRadioButton">
+                  <div class="radioBtnContainer">
+                    <input
+                      class="radioBTN"
+                      type="radio"
+                      id="contactChoice1"
+                      name="choice"
+                      value="yes"
+                      required
+                    />
+                    <label class="radiobutton" for="contactChoice1"></label>
+                    <label for="contactChoice1">Да</label>
+                  </div>
+                  <div class="radioBtnContainer">
+                    <input
+                      class="radioBTN"
+                      type="radio"
+                      id="contactChoice2"
+                      name="choice"
+                      value="no"
+                    />
+                    <label class="radiobutton" for="contactChoice2"></label>
+                    <label for="contactChoice2">Нет</label>
+                  </div>
                 </div>
-                <div class="radioBtnContainer">
-                  <input
-                    class="radioBTN"
-                    type="radio"
-                    id="contactChoice2"
-                    name="choice"
-                    value="no"
-                  />
-                  <label class="radiobutton" for="contactChoice2"></label>
-                  <label for="contactChoice2">Нет</label>
+
+                <div class="CollectTourFormInputRadioButtonM">
+                  <div class="radioBtnContainer">
+                    <input
+                      class="radioBTNM"
+                      type="radio"
+                      id="contactChoice1M"
+                      name="choiceM"
+                      value="yes"
+                      required
+                    />
+                    <label class="radiobuttonM" for="contactChoice1M"></label>
+                    <label for="contactChoice1M">Да</label>
+                  </div>
+                  <div class="radioBtnContainer">
+                    <input
+                      class="radioBTNM"
+                      type="radio"
+                      id="contactChoice2M"
+                      name="choiceM"
+                      value="no"
+                    />
+                    <label class="radiobuttonM" for="contactChoice2M"></label>
+                    <label for="contactChoice2M">Нет</label>
+                  </div>
                 </div>
               </div>
-
-              <div class="CollectTourFormInputRadioButtonM">
-                <div class="radioBtnContainer">
+              <div class="AcceptLicenz P-small">
+                <div class="AcceptLicenzeInput">
                   <input
-                    class="radioBTNM"
-                    type="radio"
-                    id="contactChoice1M"
-                    name="choiceM"
-                    value="yes"
+                    class="AcceptLicenzCheckbox"
+                    type="checkbox"
+                    id="checkboxComputer"
+                    required="required"
                   />
-                  <label class="radiobuttonM" for="contactChoice1M"></label>
-                  <label for="contactChoice1M">Да</label>
+                  <label class="checkboxcomp" for="checkboxComputer"></label>
                 </div>
-                <div class="radioBtnContainer">
+
+                <div class="AcceptLicenzeInputM">
                   <input
-                    class="radioBTNM"
-                    type="radio"
-                    id="contactChoice2M"
-                    name="choiceM"
-                    value="no"
+                    class="AcceptLicenzCheckboxM"
+                    type="checkbox"
+                    id="checkboxMobile"
+                    required="required"
                   />
-                  <label class="radiobuttonM" for="contactChoice2M"></label>
-                  <label for="contactChoice2M">Нет</label>
+                  <label class="checkboxcompM" for="checkboxMobile"></label>
+                </div>
+                <div class="AcceptLicenzText">
+                  Нажимая кнопку, я принимаю условия
+                  <span class="A_Licenz" href="">Лицензионного договора</span>
                 </div>
               </div>
             </div>
-            <div class="AcceptLicenz P-small">
-              <div class="AcceptLicenzeInput">
-                <input
-                  class="AcceptLicenzCheckbox"
-                  type="checkbox"
-                  id="checkboxComputer"
-                />
-                <label class="checkboxcomp" for="checkboxComputer"></label>
-              </div>
-
-              <div class="AcceptLicenzeInputM">
-                <input
-                  class="AcceptLicenzCheckboxM"
-                  type="checkbox"
-                  id="checkboxMobile"
-                />
-                <label class="checkboxcompM" for="checkboxMobile"></label>
-              </div>
-              <div class="AcceptLicenzText">
-                Нажимая кнопку, я принимаю условия
-                <span class="A_Licenz" href="">Лицензионного договора</span>
+            <div class="AcceptButtonsWrapper">
+              <div class="AcceptButtons">
+                <button class="AcceptButtonYES P-normal" type="submit">
+                  Найти тур
+                </button>
+                <div class="AcceptButtonNO P-normal">Сбросить</div>
               </div>
             </div>
           </div>
-          <div class="AcceptButtons">
-            <div class="AcceptButtonYES P-normal">Найти тур</div>
-            <div class="AcceptButtonNO P-normal">Сбросить</div>
-          </div>
-        </div>
+        </form>
       </div>
 
       <div class="ReviewsContainer" id="RevievsTours">
