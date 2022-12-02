@@ -20,7 +20,7 @@ footer {
   @media (min-width: 1023px) {
     padding: 0 53px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     padding: 0 376px;
   }
 }
@@ -158,7 +158,7 @@ h3 {
     background-size: 100%;
     background-position: right 75%;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.4) 0%,
@@ -215,7 +215,7 @@ h3 {
     height: 31px;
     background: url(/src/Header/YourTour1024.svg);
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin: 29px 0 0 376px;
     width: 182px;
     height: 31px;
@@ -233,7 +233,7 @@ h3 {
       height: 31px;
       background: url(/src/Header/YourTour1024Scroll.svg);
     }
-    @media (min-width: 1919px) {
+    @media (min-width: 1800px) {
       margin: 1px 0 0 376px;
       width: 182px;
       height: 31px;
@@ -254,7 +254,7 @@ h3 {
   @media (max-width: 1023px) {
     display: none;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     gap: 50px;
   }
 }
@@ -320,7 +320,7 @@ h3 {
   @media (min-width: 1023px) {
     margin: 30px 57px 0 0;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin: 30px 376px 0 0;
   }
 }
@@ -335,7 +335,7 @@ h3 {
   @media (min-width: 1023px) {
     margin-top: 148px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 768px;
   }
 }
@@ -347,7 +347,7 @@ h3 {
     width: 442px;
     margin: 50px 25px 0 25px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 562px;
   }
 }
@@ -369,7 +369,7 @@ h3 {
     height: 34px;
     margin-top: 50px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       background-color: #efa501;
       color: white;
@@ -396,7 +396,7 @@ h3 {
   @media (min-width: 1023px) {
     margin-top: 35px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     height: 39px;
   }
 }
@@ -408,7 +408,7 @@ h3 {
   @media (min-width: 1023px) {
     height: 28px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     height: 34px;
   }
 }
@@ -418,7 +418,7 @@ h3 {
   @media (min-width: 1023px) {
     height: 28px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     height: 34px;
     :hover {
       border-bottom: #1b1f2b solid 2px;
@@ -458,7 +458,7 @@ h3 {
   @media (min-width: 1023px) {
     padding: 100px 0 0 0;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     display: none;
   }
 }
@@ -469,7 +469,7 @@ h3 {
   padding: 0px;
   padding: 100px 0 0 0;
   color: white;
-  @media (max-width: 1919px) {
+  @media (max-width: 1800px) {
     display: none;
   }
 }
@@ -506,7 +506,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 370px;
     height: 531px;
     padding: 50px 0px 0px 30px;
@@ -632,7 +632,7 @@ h3 {
 .CardName {
   color: white;
   margin: 0;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin-left: 20px;
   }
 }
@@ -640,7 +640,7 @@ h3 {
   margin-top: 13px;
   text-align: left;
   color: white;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin-left: 20px;
   }
 }
@@ -654,7 +654,7 @@ h3 {
   @media (min-width: 1023px) {
     margin: 320px 0px 0px 0px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin: 277px 0px 0px 0px;
     width: 199px;
     height: 42px;
@@ -662,7 +662,7 @@ h3 {
   }
 }
 .MoreWrapper {
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin: 277px 0px 0px 0px;
     width: 199px;
     height: 42px;
@@ -671,7 +671,7 @@ h3 {
 }
 .MoreText {
   color: white;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     padding-left: 20px;
   }
 }
@@ -784,7 +784,7 @@ h3 {
     padding: 60px 60px 60px;
     margin: 0px 32px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     padding: 70px 70px 70px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -839,7 +839,7 @@ h3 {
       margin-left: 760px;
     }
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &::after {
       position: absolute;
       content: "";
@@ -883,7 +883,7 @@ input {
     width: 389px;
     height: 68px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 500px;
     height: 68px;
     &:hover {
@@ -918,7 +918,7 @@ input {
     width: 389px;
     height: 68px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 500px;
     height: 68px;
     &:hover {
@@ -953,7 +953,7 @@ input {
     width: 798px;
     height: 152px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 1030px;
     height: 152px;
     &:hover {
@@ -962,7 +962,7 @@ input {
   }
 }
 .CollectTourFormAcceptALLButtons {
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 1030px;
   }
 }
@@ -1060,7 +1060,7 @@ input {
 .A_Licenz {
   color: #1b1f2b !important;
   text-decoration: none;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       text-decoration: underline;
     }
@@ -1098,7 +1098,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       background-color: #3b7e7b;
     }
@@ -1120,7 +1120,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       background-color: #f1f3f2;
     }
@@ -1137,7 +1137,7 @@ input {
   align-items: center;
   &Header {
     text-align: center;
-    @media (min-width: 1919px) {
+    @media (min-width: 1800px) {
       width: 529px;
     }
   }
@@ -1181,7 +1181,7 @@ input {
     height: 841px;
     border-radius: 50px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 570px;
     height: 673px;
     border-radius: 50px;
@@ -1230,12 +1230,12 @@ input {
   @media (max-width: 1023px) {
     display: none;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     display: none;
   }
 }
 .ReviewsContainerCardsReviewText1920 {
-  @media (max-width: 1919px) {
+  @media (max-width: 1800px) {
     display: none;
   }
 }
@@ -1258,7 +1258,7 @@ input {
     height: 841px;
     border-radius: 50px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 570px;
     height: 673px;
     border-radius: 50px;
@@ -1318,7 +1318,7 @@ input {
     background-size: cover !important;
     background-position: center center !important;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 442.5px;
     height: 300px;
   }
@@ -1346,7 +1346,7 @@ input {
     background-size: cover !important;
     background-position: center center !important;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 349.16px;
     height: 301px;
     background-size: cover !important;
@@ -1365,7 +1365,7 @@ input {
   background: url(./src/PhotoCards/travelphoto-2.png);
   background-size: cover;
   display: none;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     display: block;
   }
 }
@@ -1402,7 +1402,7 @@ input {
   background: url(./src/PhotoCards/travelphoto-7.png);
   background-size: cover;
   display: none;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     display: block;
   }
 }
@@ -1426,7 +1426,7 @@ input {
   background: url(./src/PhotoCards/travelphoto-12.png);
   background-size: cover;
   display: none;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     display: block;
   }
 }
@@ -1444,7 +1444,7 @@ input {
   @media (min-width: 1023px) {
     margin-top: 30px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 418px;
     display: block;
     margin: auto;
@@ -1459,7 +1459,7 @@ input {
     height: 567px;
     margin: 0px 60px 0px 60px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 1110px;
     height: 507px;
     margin: 0px 60px 0px 60px;
@@ -1478,7 +1478,7 @@ input {
     height: 567px;
     border-radius: 50px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 1170px;
     height: 567px;
     position: relative;
@@ -1500,7 +1500,7 @@ input {
   }
 }
 .CardStory_2 {
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1511,7 +1511,7 @@ input {
   }
 }
 .CardStory_3 {
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1560,7 +1560,7 @@ input {
     ),
     url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
-  @media (max-width: 1919px) {
+  @media (max-width: 1800px) {
     background: none;
   }
 }
@@ -1580,7 +1580,7 @@ input {
     ),
     url(/src/StoryPhoto/storyphoto-3.png);
   background-size: cover;
-  @media (max-width: 1919px) {
+  @media (max-width: 1800px) {
     background: none;
   }
 }
@@ -1612,7 +1612,7 @@ input {
     @media (max-width: 1023px) {
       display: none;
     }
-    @media (min-width: 1919px) {
+    @media (min-width: 1800px) {
       margin-top: 60px;
     }
     &One {
@@ -1647,7 +1647,7 @@ input {
     margin: 200px 0 0 0;
     gap: 16px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin: 200px 0 0 0;
     gap: 16px;
   }
@@ -1663,7 +1663,7 @@ input {
       margin: 90px 0 0 0;
       gap: 16px;
     }
-    @media (min-width: 1919px) {
+    @media (min-width: 1800px) {
       margin: 90px 0 0 0;
       gap: 16px;
     }
@@ -1675,14 +1675,14 @@ input {
   align-items: center;
   padding: 0px;
   gap: 15px;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     padding-left: 20px;
     width: 199px;
     height: 42px;
   }
 }
 .StoryMoreTextWR1Wrap {
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     width: 199px;
     height: 42px;
     border-radius: 50px;
@@ -1698,7 +1698,7 @@ input {
   @media (min-width: 1023px) {
     margin-right: 120px;
   }
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     margin-right: 60px;
   }
 }
@@ -1709,7 +1709,7 @@ input {
 }
 .StoryMoreSSetiSpanINST {
   color: white;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       text-decoration: underline;
     }
@@ -1721,7 +1721,7 @@ input {
 .StoryMoreSSetiSpanFac {
   margin-left: 35px;
   color: white;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       text-decoration: underline;
     }
@@ -1733,7 +1733,7 @@ input {
 .StoryMoreSSetiSpanVK {
   margin-left: 35px;
   color: white;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       text-decoration: underline;
     }
@@ -1764,7 +1764,7 @@ ul {
     url(/src/StoryPhoto/storyphoto-1.png);
   background-size: cover;
   background-position: center;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     background: none;
   }
 }
@@ -1777,7 +1777,7 @@ ul {
     url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
   background-position: center center;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     background: none;
   }
 }
@@ -1790,7 +1790,7 @@ ul {
     url(/src/StoryPhoto/storyphoto-3.png);
   background-size: cover;
   background-position: center;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     background: none;
   }
 }
@@ -1906,7 +1906,7 @@ ul {
 
 .SetName {
   color: #1b1f2b;
-  @media (min-width: 1919px) {
+  @media (min-width: 1800px) {
     &:hover {
       text-decoration: underline;
     }
