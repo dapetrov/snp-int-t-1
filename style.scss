@@ -1538,7 +1538,7 @@ input {
   @media (min-width: 1023px) {
     width: 918px;
     height: 567px;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 0px 0px;
   }
   @media (min-width: 1800px) {
     width: 1110px;
@@ -1700,7 +1700,11 @@ input {
     @media (max-width: 1023px) {
       display: none;
     }
+    @media (min-width: 1023px) {
+      margin-left: 60px;
+    }
     @media (min-width: 1800px) {
+      margin-left: 0px;
       margin-top: 60px;
     }
     &One {
@@ -1781,6 +1785,7 @@ input {
     border-radius: 50px;
     align-items: center;
     overflow: hidden;
+    margin-left: 40px;
   }
   @media (min-width: 1800px) {
     width: 199px;
@@ -1796,7 +1801,7 @@ input {
     display: none;
   }
   @media (min-width: 1023px) {
-    margin-right: 120px;
+    margin-right: 60px;
   }
   @media (min-width: 1800px) {
     margin-right: 60px;
@@ -1847,7 +1852,23 @@ input {
 }
 
 .StoryMoreText {
-  color: white;
+  &A {
+    color: white;
+    @media (min-width: 1023px) {
+      margin-left: 60px;
+    }
+    @media (min-width: 1800px) {
+      margin-left: 0px;
+    }
+  }
+  &B {
+    color: white;
+    @media (min-width: 1023px) {
+    }
+    @media (min-width: 1800px) {
+      margin-left: 0px;
+    }
+  }
 }
 .StoryMoreVector {
   height: 15px;
