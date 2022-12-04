@@ -371,7 +371,7 @@ h3 {
     height: 34px;
     margin-top: 50px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       background-color: #efa501;
       color: white;
@@ -422,7 +422,7 @@ h3 {
   @media (min-width: 1023px) {
     height: 28px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     :hover {
       cursor: pointer;
       border-bottom: #1b1f2b solid 2px;
@@ -465,7 +465,7 @@ h3 {
   @media (min-width: 1023px) {
     padding: 100px 0 0 0;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1919px) {
     display: none;
   }
 }
@@ -476,7 +476,7 @@ h3 {
   padding: 0px;
   padding: 100px 0 0 0;
   color: white;
-  @media (max-width: 1200px) {
+  @media (max-width: 1919px) {
     display: none;
   }
 }
@@ -513,9 +513,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
-  @media (min-width: 1200px) {
-    width: 350px;
-    height: 500px;
+  @media (min-width: 1023px) {
     &:hover .BackgroundContainer {
       transition: all 0.3s ease;
       transform: scale(1.2);
@@ -557,6 +555,9 @@ h3 {
     url(/src/Cards/card_photo-1.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
 }
 .BackgroundContainer2 {
   position: absolute;
@@ -575,6 +576,12 @@ h3 {
     url(/src/Cards/card_photo-2.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
+  @media (min-width: 1023px) {
+    background-position: center bottom;
+  }
 }
 .BackgroundContainer3 {
   position: absolute;
@@ -593,6 +600,9 @@ h3 {
     url(/src/Cards/card_photo-3.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
 }
 .BackgroundContainer4 {
   position: absolute;
@@ -611,6 +621,9 @@ h3 {
     url(/src/Cards/card_photo-4.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
 }
 .BackgroundContainer5 {
   position: absolute;
@@ -629,6 +642,9 @@ h3 {
     url(/src/Cards/card_photo-5.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
 }
 .BackgroundContainer6 {
   position: absolute;
@@ -647,6 +663,9 @@ h3 {
     url(/src/Cards/card_photo-6.png);
 
   background-size: cover;
+  @media (max-width: 1023px) {
+    background: none;
+  }
 }
 .CardNameTextContainer {
   position: absolute;
@@ -677,9 +696,6 @@ h3 {
   margin: 179.5px 0px 0px 0px;
   @media (min-width: 1023px) {
     margin: 320px 0px 0px 0px;
-  }
-  @media (min-width: 1200px) {
-    margin: 270px 0px 0px 0px;
     width: 199px;
     height: 42px;
     border-radius: 50px;
@@ -701,7 +717,7 @@ h3 {
 }
 .MoreText {
   color: white;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     padding-left: 20px;
   }
   @media (min-width: 1800px) {
@@ -724,6 +740,8 @@ h3 {
     url(/src/Cards/card_photo-1.png);
   background-size: cover;
   background-position: center;
+  @media (min-width: 1023px) {
+  }
 }
 .CardTour_2 {
   background: linear-gradient(
@@ -915,7 +933,7 @@ input {
     width: 389px;
     height: 68px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       background-color: #f4f0e9 !important;
@@ -953,7 +971,7 @@ input {
     width: 389px;
     height: 68px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       background-color: #f4f0e9 !important;
@@ -991,7 +1009,7 @@ input {
     width: 798px;
     height: 152px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       background-color: #f4f0e9 !important;
@@ -1110,7 +1128,7 @@ input {
 .A_Licenz {
   color: #1b1f2b !important;
   text-decoration: none;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1159,7 +1177,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       background-color: #3b7e7b;
@@ -1182,7 +1200,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       background-color: #f1f3f2;
@@ -1542,7 +1560,7 @@ input {
     height: 567px;
     border-radius: 50px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover .BackgroundContainerStory {
       transition: all 0.3s ease;
       transform: scale(1.2);
@@ -1568,7 +1586,7 @@ input {
   }
 }
 .CardStory_2 {
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1580,7 +1598,7 @@ input {
   }
 }
 .CardStory_3 {
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1610,7 +1628,7 @@ input {
     ),
     url(/src/StoryPhoto/storyphoto-1.png);
   background-size: cover;
-  @media (max-width: 1199px) {
+  @media (max-width: 1023px) {
     background: none;
   }
 }
@@ -1630,7 +1648,7 @@ input {
     ),
     url(/src/StoryPhoto/storyphoto-2.png);
   background-size: cover;
-  @media (max-width: 1199px) {
+  @media (max-width: 1023px) {
     background: none;
   }
 }
@@ -1650,7 +1668,7 @@ input {
     ),
     url(/src/StoryPhoto/storyphoto-3.png);
   background-size: cover;
-  @media (max-width: 1199px) {
+  @media (max-width: 1023px) {
     background: none;
   }
 }
@@ -1745,7 +1763,7 @@ input {
   align-items: center;
   padding: 0px;
   gap: 15px;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     padding-left: 20px;
     width: 199px;
     height: 42px;
@@ -1757,7 +1775,7 @@ input {
   }
 }
 .StoryMoreTextWR1Wrap {
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     width: 199px;
     height: 42px;
     border-radius: 50px;
@@ -1791,7 +1809,7 @@ input {
 }
 .StoryMoreSSetiSpanINST {
   color: white;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1804,7 +1822,7 @@ input {
 .StoryMoreSSetiSpanFac {
   margin-left: 35px;
   color: white;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1817,7 +1835,7 @@ input {
 .StoryMoreSSetiSpanVK {
   margin-left: 35px;
   color: white;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1991,7 +2009,7 @@ ul {
 
 .SetName {
   color: #1b1f2b;
-  @media (min-width: 1200px) {
+  @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
