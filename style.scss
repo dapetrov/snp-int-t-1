@@ -371,7 +371,7 @@ h3 {
     height: 34px;
     margin-top: 50px;
   }
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       background-color: #efa501;
       color: white;
@@ -422,12 +422,14 @@ h3 {
   @media (min-width: 1023px) {
     height: 28px;
   }
-  @media (min-width: 1800px) {
-    height: 34px;
+  @media (min-width: 1200px) {
     :hover {
       cursor: pointer;
       border-bottom: #1b1f2b solid 2px;
     }
+  }
+  @media (min-width: 1800px) {
+    height: 34px;
   }
 }
 
@@ -511,12 +513,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
-  @media (min-width: 1800px) {
-    width: 370px;
-    height: 531px;
-    padding: 50px 0px 0px 30px;
-    position: relative;
-    overflow: hidden;
+  @media (min-width: 1200px) {
     &:hover .BackgroundContainer {
       transition: all 0.3s ease;
       transform: scale(1.2);
@@ -529,6 +526,13 @@ h3 {
         background-color: #efa501;
       }
     }
+  }
+  @media (min-width: 1800px) {
+    width: 370px;
+    height: 531px;
+    padding: 50px 0px 0px 30px;
+    position: relative;
+    overflow: hidden;
   }
 }
 .BackgroundContainer {
@@ -889,13 +893,15 @@ input {
     width: 389px;
     height: 68px;
   }
-  @media (min-width: 1800px) {
-    width: 500px;
-    height: 68px;
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       background-color: #f4f0e9 !important;
     }
+  }
+  @media (min-width: 1800px) {
+    width: 500px;
+    height: 68px;
   }
 }
 .CollectTourFormContainerSel {
@@ -961,13 +967,15 @@ input {
     width: 798px;
     height: 152px;
   }
-  @media (min-width: 1800px) {
-    width: 1030px;
-    height: 152px;
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       background-color: #f4f0e9 !important;
     }
+  }
+  @media (min-width: 1800px) {
+    width: 1030px;
+    height: 152px;
   }
 }
 .CollectTourFormAcceptALLButtons {
@@ -1078,7 +1086,7 @@ input {
 .A_Licenz {
   color: #1b1f2b !important;
   text-decoration: none;
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1126,7 +1134,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       background-color: #3b7e7b;
@@ -1149,7 +1157,7 @@ input {
     width: 235px;
     height: 58px;
   }
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       background-color: #f1f3f2;
@@ -1508,11 +1516,7 @@ input {
     height: 567px;
     border-radius: 50px;
   }
-  @media (min-width: 1800px) {
-    width: 1170px;
-    height: 567px;
-    position: relative;
-    overflow: hidden;
+  @media (min-width: 1200px) {
     &:hover .BackgroundContainerStory {
       transition: all 0.3s ease;
       transform: scale(1.2);
@@ -1530,9 +1534,15 @@ input {
       }
     }
   }
+  @media (min-width: 1800px) {
+    width: 1170px;
+    height: 567px;
+    position: relative;
+    overflow: hidden;
+  }
 }
 .CardStory_2 {
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1544,7 +1554,7 @@ input {
   }
 }
 .CardStory_3 {
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover > .StoryCardNameTextContainer > .StoryMore > .StoryMoreTextWR1Wrap {
       transition: 0.5s linear;
       background: #286562;
@@ -1743,7 +1753,7 @@ input {
 }
 .StoryMoreSSetiSpanINST {
   color: white;
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1769,7 +1779,7 @@ input {
 .StoryMoreSSetiSpanVK {
   margin-left: 35px;
   color: white;
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
@@ -1943,7 +1953,7 @@ ul {
 
 .SetName {
   color: #1b1f2b;
-  @media (min-width: 1800px) {
+  @media (min-width: 1200px) {
     &:hover {
       cursor: pointer;
       text-decoration: underline;
