@@ -41,7 +41,15 @@ h1 {
   color: #1b1f2b;
 
   margin: 0;
-
+  @media (min-width: 599px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 109%;
+    letter-spacing: 0.02em;
+    color: #1b1f2b;
+  }
   @media (min-width: 1023px) {
     font-family: "Roboto";
     font-style: normal;
@@ -63,6 +71,15 @@ h2 {
   padding-top: 75px;
 
   margin: 0;
+  @media (min-width: 599px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45 px;
+    line-height: 124%;
+    color: #1b1f2b;
+    padding-top: 135px;
+  }
   @media (min-width: 1023px) {
     font-family: "Roboto";
     font-style: normal;
@@ -98,6 +115,14 @@ h3 {
   font-size: 16px;
   line-height: 142%;
   color: #1b1f2b;
+  @media (min-width: 599px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 122%;
+    color: #1b1f2b;
+  }
   @media (min-width: 1023px) {
     font-family: "Roboto";
     font-style: normal;
@@ -114,6 +139,14 @@ h3 {
   font-size: 16px;
   line-height: 142%;
   color: #1b1f2b;
+  @media (min-width: 599px) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+    color: #1b1f2b;
+  }
   @media (min-width: 1023px) {
     font-family: "Roboto";
     font-style: normal;
@@ -321,9 +354,26 @@ h3 {
   color: white;
   @media (min-width: 1023px) {
     margin: 30px 57px 0 0;
+    height: 28px;
+    &:hover {
+      border-bottom: 1px solid;
+    }
   }
   @media (min-width: 1800px) {
     margin: 30px 376px 0 0;
+  }
+  &_Scroll {
+    margin: 0px 21px 0 0;
+    @media (min-width: 1023px) {
+      margin: 0 57px 0 0;
+      height: 28px;
+      &:hover {
+        border-bottom: 1px solid;
+      }
+    }
+    @media (min-width: 1800px) {
+      margin: 0px 376px 0 0;
+    }
   }
 }
 .TextContainer {
@@ -334,8 +384,13 @@ h3 {
 .WelcomeText {
   color: white;
   margin: 84.5px 0 0 0;
+  width: 374px;
+  @media (min-width: 599px) {
+    margin: 64.5px 0 0 0;
+  }
   @media (min-width: 1023px) {
     margin-top: 148px;
+    width: 600px;
   }
   @media (min-width: 1800px) {
     width: 768px;
@@ -505,6 +560,15 @@ h3 {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  @media (min-width: 599px) {
+    border-radius: 50px;
+    width: 420px;
+    height: 420px;
+    padding: 50px 0px 0px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
   @media (min-width: 1023px) {
     border-radius: 50px;
     width: 450px;
@@ -694,6 +758,12 @@ h3 {
   padding: 0px;
   gap: 15px;
   margin: 179.5px 0px 0px 0px;
+  @media (min-width: 599px) {
+    margin: 240px 0px 0px 0px;
+    width: 199px;
+    height: 42px;
+    border-radius: 50px;
+  }
   @media (min-width: 1023px) {
     margin: 320px 0px 0px 0px;
     width: 199px;
@@ -860,7 +930,7 @@ h3 {
   }
 }
 .CollectTourFormContainerOne {
-  @media (max-width: 1023px) {
+  @media (max-width: 599px) {
     &::after {
       position: absolute;
       z-index: 1;
@@ -871,6 +941,19 @@ h3 {
       width: 18px;
       margin-top: 50px;
       margin-left: 240px;
+    }
+  }
+  @media (min-width: 599px) and(max-width:1023px) {
+    &::after {
+      position: absolute;
+      z-index: 1;
+      content: "";
+      display: block;
+      background: url(./src/Vectors/Vector-arrow.svg);
+      height: 11px;
+      width: 18px;
+      margin-top: 70px;
+      margin-left: 415px;
     }
   }
 }
@@ -929,6 +1012,10 @@ input {
   & ::placeholder {
     color: #cccccc;
   }
+  @media (min-width: 599px) {
+    width: 460px;
+    height: 80px;
+  }
   @media (min-width: 1023px) {
     width: 389px;
     height: 68px;
@@ -966,6 +1053,10 @@ input {
   &:focus {
     border: #a6a6a6 1px solid;
     background-color: #f4f0e9 !important;
+  }
+  @media (min-width: 599px) {
+    width: 460px;
+    height: 80px;
   }
   @media (min-width: 1023px) {
     width: 389px;
@@ -1005,6 +1096,10 @@ input {
     border: 1px solid #a6a6a6;
     background-color: #f4f0e9 !important;
   }
+  @media (min-width: 599px) {
+    width: 460px;
+    height: 200px;
+  }
   @media (min-width: 1023px) {
     width: 798px;
     height: 152px;
@@ -1021,7 +1116,9 @@ input {
   }
 }
 .CollectTourFormAcceptALLButtons {
-  @media (max-width: 1023px) {
+  @media (min-width: 599px) {
+  }
+  @media (max-width: 599px) {
     width: 248px;
   }
   @media (min-width: 1800px) {
@@ -1124,6 +1221,12 @@ input {
   margin-top: 30px;
   gap: 10px;
   color: #a6a6a6;
+  @media (min-width: 599px) {
+    width: 389px;
+  }
+  @media (min-width: 1023px) {
+    width: auto;
+  }
 }
 .A_Licenz {
   color: #1b1f2b !important;
@@ -1131,10 +1234,11 @@ input {
   @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     &:active {
       color: #286562 !important;
+      border-bottom: 2px solid #286562;
     }
   }
 }
@@ -1257,6 +1361,11 @@ input {
   border-radius: 20px;
   margin-bottom: 18px;
   width: 318px;
+  @media (min-width: 599px) {
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+  }
   @media (min-width: 1023px) {
     width: 450px;
     height: 841px;
@@ -1270,6 +1379,9 @@ input {
 }
 .CardsWrapper {
   padding: 20px;
+  @media (min-width: 599px) {
+    padding: 40px;
+  }
   @media (min-width: 1023px) {
     padding: 40px;
   }
@@ -1290,6 +1402,9 @@ input {
   align-items: flex-end;
   justify-content: space-between;
   padding: 40px 0px 0px;
+  @media (min-width: 599px) {
+    padding: 50px 0 0;
+  }
   @media (min-width: 1023px) {
     padding: 378px 0 0;
   }
@@ -1334,6 +1449,11 @@ input {
   background: $backgColorTwo;
   border-radius: 20px;
   width: 318px;
+  @media (min-width: 599px) {
+    width: 450px;
+    height: 610px;
+    border-radius: 50px;
+  }
   @media (min-width: 1023px) {
     width: 450px;
     height: 841px;
@@ -1392,6 +1512,13 @@ input {
   border-radius: 20px;
   background-size: cover !important;
   background-position: center center !important;
+  @media (min-width: 599px) {
+    width: 259px;
+    height: 220px;
+    border-radius: 50px;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
   @media (min-width: 1023px) {
     width: 314.67px;
     height: 300px;
@@ -1420,6 +1547,13 @@ input {
   border-radius: 20px;
   background-size: cover !important;
   background-position: center center !important;
+  @media (min-width: 599px) {
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
   @media (min-width: 1023px) {
     width: 231px;
     height: 301px;
@@ -1535,6 +1669,11 @@ input {
 .StoryCardNameTextContainer {
   position: absolute;
   margin: 30px 25px 0px 30px;
+  @media (min-width: 599px) {
+    width: 400px;
+    height: 567px;
+    margin: 40px 0px 0px 40px;
+  }
   @media (min-width: 1023px) {
     width: 918px;
     height: 567px;
@@ -1555,6 +1694,11 @@ input {
   border-radius: 20px;
   position: relative;
   overflow: hidden;
+  @media (min-width: 599px) {
+    width: 455px;
+    height: 650px;
+    border-radius: 50px;
+  }
   @media (min-width: 1023px) {
     width: 918px;
     height: 567px;
@@ -1735,6 +1879,10 @@ input {
   padding: 0px;
   gap: 15px;
   margin-top: 156.5px;
+  @media (min-width: 599px) {
+    margin: 220px 0 0 20px;
+    gap: 16px;
+  }
   @media (min-width: 1023px) {
     margin: 200px 0 0 0;
     gap: 16px;
@@ -1751,6 +1899,10 @@ input {
     padding: 0px;
     gap: 15px;
     margin-top: 64px;
+    @media (min-width: 599px) {
+      margin: 130px 0 0 20px;
+      gap: 16px;
+    }
     @media (min-width: 1023px) {
       margin: 90px 0 0 0;
       gap: 16px;
@@ -1817,10 +1969,11 @@ input {
   @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     &:active {
       color: #efa501;
+      border-bottom: 2px solid #efa501;
     }
   }
 }
@@ -1830,10 +1983,11 @@ input {
   @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     &:active {
       color: #efa501;
+      border-bottom: 2px solid #efa501;
     }
   }
 }
@@ -1843,10 +1997,11 @@ input {
   @media (min-width: 1023px) {
     &:hover {
       cursor: pointer;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     &:active {
       color: #efa501;
+      border-bottom: 2px solid #efa501;
     }
   }
 }
@@ -2031,12 +2186,14 @@ ul {
 .SetName {
   color: #1b1f2b;
   @media (min-width: 1023px) {
+    height: 27px;
     &:hover {
       cursor: pointer;
-      text-decoration: underline;
+      border-bottom: 2px solid;
     }
     &:active {
       color: #efa501;
+      border-bottom: 2px solid #efa501;
     }
   }
 }
