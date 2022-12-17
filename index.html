@@ -361,7 +361,7 @@
                       id="contactChoice1"
                       name="choice"
                       value="yes"
-                      required
+                      required="required"
                     />
                     <label class="radiobutton" for="contactChoice1"></label>
                     <label for="contactChoice1">Да</label>
@@ -373,6 +373,7 @@
                       id="contactChoice2"
                       name="choice"
                       value="no"
+                      required="required"
                     />
                     <label class="radiobutton" for="contactChoice2"></label>
                     <label for="contactChoice2">Нет</label>
@@ -387,7 +388,7 @@
                       id="contactChoice1M"
                       name="choiceM"
                       value="yes"
-                      required
+                      required="required"
                     />
                     <label class="radiobuttonM" for="contactChoice1M"></label>
                     <label for="contactChoice1M">Да</label>
@@ -399,6 +400,7 @@
                       id="contactChoice2M"
                       name="choiceM"
                       value="no"
+                      required="required"
                     />
                     <label class="radiobuttonM" for="contactChoice2M"></label>
                     <label for="contactChoice2M">Нет</label>
@@ -436,7 +438,9 @@
                 <button class="AcceptButtonYES P-normal" type="submit">
                   Найти тур
                 </button>
-                <div class="AcceptButtonNO P-normal">Сбросить</div>
+                <button class="AcceptButtonNO P-normal" type="reset">
+                  Сбросить
+                </button>
               </div>
             </div>
           </div>
@@ -719,6 +723,7 @@
       </div>
     </footer>
   </body>
+
   <script src="changeClassP_HOVER.js"></script>
   <script src="scrollHeader.js"></script>
 </html>
