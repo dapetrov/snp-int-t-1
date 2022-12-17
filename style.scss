@@ -1162,12 +1162,18 @@ input {
   &:checked + label {
     background: url(./src/RadioButton-CheckBox/RadioSVG2.svg);
   }
-  display: none;
+  display: block;
+  height: 1px;
+  width: 1px;
+  margin: 0;
   &M {
     &:checked + label {
       background: url(./src/RadioButton-CheckBox/RadioSVG2M.svg);
     }
-    display: none;
+    display: block;
+    height: 1px;
+    width: 1px;
+    margin: 0;
   }
 }
 .radioBtnContainer {
@@ -1205,9 +1211,15 @@ input {
   &:checked + label {
     background: url(./src/RadioButton-CheckBox/CheckboxSVG2.svg);
   }
-  display: none;
+  display: inline-block;
+  height: 1px;
+  width: 1px;
+  margin: 0;
   &M {
-    display: none;
+    margin: 0;
+    display: block;
+    height: 1px;
+    width: 1px;
     &:checked + label {
       background: url(./src/RadioButton-CheckBox/CheckboxSVG2M.svg);
     }
@@ -1221,11 +1233,13 @@ input {
   margin-top: 30px;
   gap: 10px;
   color: #a6a6a6;
+  margin-left: 8px;
   @media (min-width: 599px) {
     width: 389px;
   }
   @media (min-width: 1023px) {
     width: auto;
+    margin-left: 5px;
   }
 }
 .A_Licenz {

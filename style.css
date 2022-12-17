@@ -989,11 +989,17 @@ input {
     background: url(./src/RadioButton-CheckBox/RadioSVG1M.svg); }
 
 .radioBTN {
-  display: none; }
+  display: block;
+  height: 1px;
+  width: 1px;
+  margin: 0; }
   .radioBTN:checked + label {
     background: url(./src/RadioButton-CheckBox/RadioSVG2.svg); }
   .radioBTNM {
-    display: none; }
+    display: block;
+    height: 1px;
+    width: 1px;
+    margin: 0; }
     .radioBTNM:checked + label {
       background: url(./src/RadioButton-CheckBox/RadioSVG2M.svg); }
 
@@ -1024,11 +1030,17 @@ input {
     display: none; } }
 
 .AcceptLicenzCheckbox {
-  display: none; }
+  display: inline-block;
+  height: 1px;
+  width: 1px;
+  margin: 0; }
   .AcceptLicenzCheckbox:checked + label {
     background: url(./src/RadioButton-CheckBox/CheckboxSVG2.svg); }
   .AcceptLicenzCheckboxM {
-    display: none; }
+    margin: 0;
+    display: block;
+    height: 1px;
+    width: 1px; }
     .AcceptLicenzCheckboxM:checked + label {
       background: url(./src/RadioButton-CheckBox/CheckboxSVG2M.svg); }
 
@@ -1039,13 +1051,15 @@ input {
   padding: 0px;
   margin-top: 30px;
   gap: 10px;
-  color: #a6a6a6; }
+  color: #a6a6a6;
+  margin-left: 8px; }
   @media (min-width: 599px) {
     .AcceptLicenz {
       width: 389px; } }
   @media (min-width: 1023px) {
     .AcceptLicenz {
-      width: auto; } }
+      width: auto;
+      margin-left: 5px; } }
 
 .A_Licenz {
   color: #1b1f2b !important;
